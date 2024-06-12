@@ -1,0 +1,58 @@
+# Ignorar archivos compilados y logs
+*.class
+*.log
+*.pyc
+*.swp
+
+# Ignorar archivos y directorios del sistema
+.DS_Store
+
+# Ignorar directorios específicos de herramientas y editores
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# Ignorar archivos y configuraciones de IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Ignorar configuraciones específicas de VS Code (puedes incluirlas si es necesario)
+.vscode/
+
+# Ignorar archivos y directorios relacionados con Flutter/Dart
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# Ignorar archivos de simbolización
+app.*.symbols
+
+# Ignorar archivos de ofuscación
+app.*.map.json
+
+# Ignorar artefactos de compilación de Android Studio
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Ignorar caché de FVM
+.fvm/
+
+# Ignorar archivos de configuración de claves
+key.properties
+
+# Ignorar archivos generados y de construcción grandes
+.dart_tool/
+build/
+**/flutter_build/
+**/outputs/flutter-apk/
+**/intermediates/

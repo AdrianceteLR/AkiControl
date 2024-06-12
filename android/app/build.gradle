@@ -54,8 +54,8 @@ android {
         // minSdkVersion flutter.minSdkVersion
         minSdkVersion 21
         targetSdkVersion flutter.targetSdkVersion
-        versionCode 2           // Cada version que quiera desplegar tengo que aumentar en uno
-        versionName "1.0.1"     // Cada version la tengo que cambiar
+        versionCode 3           // Cada version que quiera desplegar tengo que aumentar en uno
+        versionName "1.1.0"     // Cada version la tengo que cambiar
         // versionName es lo que la gente ve cuando se descarga la aplicación
     }
 

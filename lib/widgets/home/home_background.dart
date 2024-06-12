@@ -21,10 +21,7 @@ class HomeBackground extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        // Purple Gradient
         Container(decoration: boxDecoration),
-
-        // Pink Box
         Positioned(top: -120, left: -20, child: _PinkBox()),
       ],
     );

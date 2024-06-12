@@ -45,14 +45,4 @@ class TaskFormProvider extends ChangeNotifier {
     }
     notifyListeners();
   }
-
-  // Future<void> saveOrUpdateTask() async {
-  //   if (isValidForm()) {
-  //     if (task.id == null) {
-  //       await tasksService.createTask(task);
-  //     } else {
-  //       await tasksService.updateTask(task);
-  //     }
-  //   }
-  // }
 }

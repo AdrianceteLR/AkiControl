@@ -89,7 +89,7 @@ class _ProductScreenBody extends StatelessWidget {
                           ),
                         ],
                       ),
-                      ProductForm(),
+                      const ProductForm(),
                     ],
                   ),
                 ),

@@ -5,27 +5,27 @@ class InputDecorations {
     required String hintText,
     required String labelText,
     IconData? prefixIcon,
-    Widget? suffixIcon, // Añadir esta línea para permitir un suffixIcon
+    Widget? suffixIcon,
   }) {
     return InputDecoration(
-        enabledBorder: const UnderlineInputBorder(
-          borderSide: BorderSide(
-            color: Colors.grey,
-          ),
+      enabledBorder: const UnderlineInputBorder(
+        borderSide: BorderSide(
+          color: Colors.grey,
         ),
-        focusedBorder: const UnderlineInputBorder(
-          borderSide: BorderSide(
-            color: Color(0xFFE76F51),
-          ),
+      ),
+      focusedBorder: const UnderlineInputBorder(
+        borderSide: BorderSide(
+          color: Color(0xFFE76F51),
         ),
-        hintText: hintText,
-        hintStyle: const TextStyle(color: Colors.grey),
-        labelText: labelText,
-        labelStyle: const TextStyle(color: Colors.grey),
-        prefixIcon: prefixIcon != null
-            ? Icon(prefixIcon, color: const Color(0xFFE76F51))
-            : null,
-        suffixIcon:
-            suffixIcon); // Añadir esta línea para establecer el suffixIcon
+      ),
+      hintText: hintText,
+      hintStyle: const TextStyle(color: Colors.grey),
+      labelText: labelText,
+      labelStyle: const TextStyle(color: Colors.grey),
+      prefixIcon: prefixIcon != null
+          ? Icon(prefixIcon, color: const Color(0xFFE76F51))
+          : null,
+      suffixIcon: suffixIcon,
+    );
   }
 }
